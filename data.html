@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Metadati Dublin Core -->
+  <meta name="DC.Title" content="Michael Ventris' Work-notes">
+  <meta name="DC.Creator" content="Avella, Sara">
+  <meta name="DC.Subject" content="Work-notes">
+  <meta name="DC.Description" content="Archivio digitale di raccolta delle Work-notes">
+  <meta name="DC.Publisher" content="Università di Bologna">
+  <meta name="DC.Date" content="2025-01">
+  <meta name="DC.Type" content="Sito web">
+  <meta name="DC.Format" content="HTML/CSS/JS">
+  <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+  <link rel="DC.Identifier" href="https://tuosito.it">
+  <meta name="DC.Source" content="https://openlibrary.org/works/OL2243575M">
+  <meta name="DC.Language" content="it">
+  <meta name="DC.Relation" content="https://openlibrary.org/works/OL2243575M">
+  <meta name="DC.Relation" content="https://planetarynames.wr.usgs.gov/Feature/6349">
+  <meta name="DC.Relation" content="https://www.english-heritage.org.uk/visit/blue-plaques/michael-ventris/">
+  <meta name="DC.Relation" content="https://www.youtube.com/embed/pOOGJAQ4eg4?si=d-TgebkgNmKt3mmD">
+  <link rel="DC.Coverage" href="http://vocab.getty.edu/page/tgn/7004847">
+  <meta name="DC.Rights" content="Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)">
+
+    <title>Filtra per Data - Michael Ventris' Work Notes</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <!-- Font Awesome CSS (per le icone) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap">
+    <link rel="stylesheet" href="stile/stile.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <!-- Header -->
+    <header>
+
+
+
+        <nav class="navbar navbar-expand-lg bg-warning">
+    <div class="container-fluid">
+        <img src="img/logomv.jpeg" alt="Logo" width="80" height="60" class="d-inline-block align-text-top me-4">
+        <a class="navbar-brand text-dark" href="index.html">MV Work Notes</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-dark" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Introduzione</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Archivio
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item text-dark" href="#">Numero</a></li>
+                                <li><hr class="dropdown-divider text-dark"></li>
+                                <li><a class="dropdown-item text-dark" href="data.html">Data</a></li>
+                                <li><hr class="dropdown-divider text-dark"></li>
+                                <li><a class="dropdown-item text-dark" href="#">Contenuto</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarProjectDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Il progetto
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarProjectDropdown">
+                                <li><a class="dropdown-item text-dark" href="#">Chi siamo</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item text-dark" href="#">Storia del progetto</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item text-dark" href="#">Staff</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-light border-dark border-2" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
+ <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb bg-dark mb-0 rounded">
+                        <li class="breadcrumb-item"><a href="index.html" class="text-white" aria-label="Vai alla Home">Home > </a></li>
+                        <li class="breadcrumb-item"><a href="#" class="text-white">Archivio ></a></li>
+                        <li class="breadcrumb-item"><a href="data.html" class="text-white">Data ></a></li>
+                        
+                    </ol>
+                </nav> 
+
+
+
+<div class="container-fluid mt-0 mb-4">
+    <div class="header-banner position-relative text-center text-white" style="background-image: url('img/ventrisdata.jpg'); background-size: cover; background-position: center; min-height: 300px;">
+        <div class="overlay bg-dark bg-opacity-50 py-4 px-3 d-inline-block rounded shadow position-absolute top-50 start-50 translate-middle">
+            <h1 class="fs-1">Ricerca per Data</h1>
+            <p class="fs-5">In questa sezione è possibile la ricerca per datazione.</p>
+        </div>
+    </div>
+</div>
+
+
+    </header>
+    
+
+
+   <main id="dataMain">
+    <!-- Contenuto principale -->
+    <div class="row">
+
+
+        <!-- Colonna filtri -->
+    <aside class="col-lg-2 col-md-4 mb-4 sidebar">
+    <h4 class="text-dark"><b>Filtra per Anno</b></h4>
+    <!-- Anno 1951 -->
+    <div class="btn-group-vertical w-100">
+        <button class="btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#filter1951" aria-expanded="false" aria-controls="filter1951">1951</button>
+        <div id="filter1951" class="collapse">
+            <div class="btn-group-vertical w-100 mt-2">
+                <button class="btn btn-outline-warning month-button" type="button">Gennaio</button>
+                <button class="btn btn-outline-warning month-button" type="button">Febbraio</button>
+                <button class="btn btn-outline-warning month-button" type="button">Maggio</button>
+                <button class="btn btn-outline-warning month-button" type="button">Giugno</button>
+                <button class="btn btn-outline-warning month-button" type="button">Luglio</button>
+                <button class="btn btn-outline-warning month-button" type="button">Settembre</button>
+                <button class="btn btn-outline-warning month-button" type="button">Novembre</button>
+                <button class="btn btn-outline-warning month-button" type="button">Dicembre</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Anno 1952 -->
+    <div class="btn-group-vertical w-100 mt-2">
+        <button class="btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#filter1952" aria-expanded="true" aria-controls="filter1952">1952</button>
+        <div id="filter1952" class="collapse">
+            <div class="btn-group-vertical w-100 mt-2">
+                <button class="btn btn-outline-warning month-button" type="button">Gennaio</button>
+                <button class="btn btn-outline-warning month-button" type="button">Febbraio</button>
+                <button class="btn btn-outline-warning month-button" type="button">Marzo</button>
+                <button class="btn btn-outline-warning month-button" type="button" data-bs-toggle="collapse" data-bs-target="#june1952Content" aria-expanded="true" aria-controls="june1952Content">Giugno</button>
+            </div>
+        </div>
+    </div>
+
+
+
+ <!-- Inizio sezione Ricerca per Parola Chiave -->
+                <div class="container bg-light p-3 rounded mt-4">
+                    <h5 class="text-dark"><b>Cerca Parola Chiave</b></h5>
+                    <form action="#" method="GET">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Inserisci parola..." name="keyword">
+                        </div>
+                        <button type="submit" class="btn btn-warning w-100">Cerca</button>
+                    </form>
+                </div>
+                <!-- Fine sezione Ricerca -->
+
+
+<!-- Sezione Bibliografia -->
+<div class="card border border-dark mt-4">
+    <div class="card-header bg-dark text-light">
+        <h5><b>Riferimenti bibliografici</b></h5>
+    </div>
+    <img class="card-img" src="img/annasacconi.jpg" alt="Card image">
+    <div class="card-body bg-dark text-light">
+        <h6 class="card-title text-light text-decoration-underline"><u>Work notes on Minoan language research: and other unedited papers</u></h6>
+        <p class="card-text text-light mb-1">Autore: Ventris, Michael</p>
+        <p class="card-text text-light mb-3">Editore: Sacconi, Anna</p>
+        <!-- Pulsante che apre il modal -->
+        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#metadataModal">Vai ai metadati</button>
+    </div>
+</div>
+</aside>
+
+            <!-- Sezione centrale -->
+        <section class=col-lg-10 col-md-8> 
+                <div class="container-fluid bg-light text-dark mt-2 mb-4">
+                <div id="introContent" class="collapse show">
+                    <h2 class="text-dark text-center">Ricerca per Data</h2>
+                    <p style="text-align: justify;">Le work-notes si datano dal 28 gennaio 1951 al 1º giugno 1952. L'impulso alla stesura di questi appunti di lavoro venne dell'imminente pubblicazione delle tavolette di Pilo, portate alla luce dall'archeologo Carl Blegen e dall'importante intuizione di Alice Kober che la lingua rappresentata dalla Lineare B fosse flessiva. Ventris si dedicò a questi scritti con l'obiettivo di commentare gli sviluppi delle scoperte riguardanti la civiltà micenea, astenendosi dalle pubblicazioni accademiche ufficiali. Tali work-notes, pertanto, rappresentano il contributo che Ventris diede alla ricerca, svolgendo il suo lavoro in maniera indipendente.</p>
+                </div>
+                </div>
+        
+
+
+
+  <!-- Div per il grafico -->
+<div id="chartContainer" class="bg-light p-4 rounded mb-4"> <!-- Cambiato ID per includere il contenitore completo -->
+    <h5 class="text-center"><b>Distribuzione delle Note per Mese e Anno </b></h5>
+    <div class="d-flex justify-content-center">
+        <div id="chart_div" style="height: 400px; width: 80%;"></div> <!-- ID corretto per il grafico -->
+    </div>
+</div>
+
+<!-- Script Google Chart -->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+    google.charts.load('current', {'packages': ['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+        // Assicurati che il contenitore del grafico esista
+        const chartDiv = document.getElementById('chart_div');
+        if (!chartDiv) {
+            console.error('Il contenitore del grafico (chart_div) non esiste.');
+            return;
+        }
+
+        // Dati del grafico
+        var data = google.visualization.arrayToDataTable([
+            ['Mese', '1951', '1952'],
+            ['Gennaio', 2, 2],
+            ['Febbraio', 2, 2],
+            ['Marzo', 0, 1],
+            ['Maggio', 4, 0],
+            ['Giugno', 3, 2],
+            ['Luglio', 3, 0],
+            ['Settembre', 2, 0],
+            ['Novembre', 4, 0],
+            ['Dicembre', 3, 0]
+        ]);
+
+        // Opzioni del grafico
+        var options = {
+            title: 'Note distribuite per mese',
+            chartArea: {width: '70%'},
+            hAxis: {
+                title: 'Numero di Note',
+                minValue: 0
+            },
+            vAxis: {
+                title: 'Mese'
+            },
+            colors: ['#f4b400', '#ff0000'], // Colori per 1951 e 1952
+            legend: {
+                position: 'top', // Posizione della legenda
+                alignment: 'center', // Centrare la legenda
+                textStyle: {
+                    fontSize: 14 // Dimensione del testo
+                }
+            }
+        };
+
+        // Disegna il grafico
+        var chart = new google.visualization.BarChart(chartDiv);
+        chart.draw(data, options);
+    }
+</script>
+
+
+
+
+
+
+    <div id="june1952Content" class="collapse">
+        <div class="container mt-3 bg-light"> 
+                    <h2 class="text-center mb-2">Note per Giugno 1952</h2>
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <!-- Primo Item -->
+                        <div class="col">
+                            <a href="item.html" class="custom-link">
+                                <div class="card h-100 active note-card border border-warning">
+                                    <img src="img/nota201.jpg" class="card-img-top" alt="Nota del 01/06/1952">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Nota del 01/06/1952</h5>
+                                        <p class="card-text">"Le tavolette di Cnosso sono scritte in Greco?"</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Secondo Item -->
+                        <div class="col">
+                            <a href="item2.html" class="custom-link">
+                                <div class="card h-100">
+                                    <img src="img/grid.jpg" class="card-img-top" alt="Item 1">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Grid 5/6/1952</h5>
+                                        <p class="card-text">Griglia dei segni</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                  </div>  
+                </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="metadataModal" tabindex="-1" aria-labelledby="metadataModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="metadataModalLabel">Metadati</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Chiudi"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Titolo:</strong> Work notes on Minoan language research: and other unedited papers</p>
+                <p><strong>Autore:</strong> Ventris, Michael</p>
+                <p><strong>Curatore scientifico:</strong> Sacconi, Anna</p>
+                <p><strong>Note dell'edizione:</strong>Includes bibliographical references (p. 396).English, Minoan B (or Linear B), and Minoan A (or Linear A). </p>
+                <p><strong>Data di pubblicazione:</strong> 1988</p>
+                <p><strong>Pubblicato a:</strong> Roma</p>
+                <p><strong>Editore:</strong> Edizioni dell'Ateneo </p>
+                <p><strong>Collana:</strong> Incunabula Graeca ;, vol. 90, Incunabula Graeca ;, 90. </p>
+                <p><strong>Descrizione fisica:</strong> viii, 396 p.; [3] c. di tav. ripieg. ; 27 cm</p>
+                <p><strong>Dewey Decimal Class</strong> 487/.1</p>
+                <p><strong>Library of Congress:</strong> P1035 .V43 1988</p>
+                <p><strong>Open Library ID:</strong> OL2243575M</p>
+                <p><strong>LCCN ID:</strong> 89116501</p>
+                <p><strong>OCLC/WorldCat ID:</strong> 19007929</p>
+                <p><strong>OPAC ID:</strong> IT\ICCU\PAL\0020510</p>
+                <p><strong>Source records:</strong> P1035 .V43 1988</p>
+                <p><strong>Descrizione:</strong> Una raccolta di note inedite e documenti sulla ricerca sulla lingua minoica di Michael Ventris.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<div class="container mt-3">
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+</div>
+
+
+
+</main>   
+       
+
+    
+
+
+<section class="bg-secondary text-dark mt-0 mb-0 py-2">
+  <div class="container py-1">
+    <h3 class="text-center mt-0 mb-2">Progetti Simili</h3>
+    <div class="row justify-content-center text-center">
+        <!-- Primo Progetto -->
+        <div class="col-6 col-sm-4 col-md-2 avatar-container">
+            <img src="img/texasuni.jpeg" class="img-fluid rounded-circle avatar-image w-50" alt="Michael Ventris and Alice Kober archives">
+            <div class="avatar-name">
+                <a href="https://sites.utexas.edu/scripts/about-pasp/pasp-archives-and-finding-aids/#ventriskober" class="custom-link text-black" target="_blank">
+                    Michael Ventris and Alice Kober Archives (PASP, Austin, TX)
+                </a>
+            </div>
+        </div>
+        <!-- Secondo Progetto -->
+        <div class="col-6 col-sm-4 col-md-2 avatar-container">
+            <img src="img/texasuni.jpeg" class="img-fluid rounded-circle avatar-image w-50" alt="Emmett L. Bennett archives">
+            <div class="avatar-name">
+                <a href="https://sites.utexas.edu/scripts/about-pasp/pasp-archives-and-finding-aids/" class="custom-link text-black" target="_blank">
+                    Emmett L. Bennett Archives (PASP, Austin, TX)
+                </a>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Footer -->
+    
+ <footer class="footer bg-dark text-warning py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="text-warning">Informazioni</h5>
+                    <p class="text-warning">© 2024 Michael Ventris Project. Tutti i diritti riservati.</p>
+                    <p class="text-warning">Archivio digitale dedicato alle "work notes" di Michael Ventris.</p>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="text-warning">Contatti</h5>
+                    <ul class="text-warning">
+                        <li>Email: <a href="mailto:sara.avella@studio.unibo.it" class="text-warning">sara.avella@studio.unibo.it</a></li>
+                        <li>Telefono: +39 </li>
+                        <li>Indirizzo: Via Zamboni 32, Bologna, Italia</li>
+                    </ul>
+                    <h5 class="text-warning">Seguici su</h5>
+                    <a href="#" class="text-warning me-2"><i class="fab fa-facebook"></i> Facebook</a>
+                    <a href="#" class="text-warning me-2"><i class="fab fa-twitter"></i> Twitter</a>
+                    <a href="#" class="text-warning"><i class="fab fa-instagram"></i> Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+</html>

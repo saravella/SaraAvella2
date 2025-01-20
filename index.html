@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="it">
+<head><!-- inizio head-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Metadati Dublin Core -->
+  <meta name="DC.Title" content="Michael Ventris' Work-notes">
+  <meta name="DC.Creator" content="Avella, Sara">
+  <meta name="DC.Subject" content="Work-notes">
+  <meta name="DC.Description" content="Archivio digitale di raccolta delle Work-notes">
+  <meta name="DC.Publisher" content="Università di Bologna">
+  <meta name="DC.Date" content="2025-01">
+  <meta name="DC.Type" content="Sito web">
+  <meta name="DC.Format" content="HTML/CSS/JS">
+  <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+  <link rel="DC.Identifier" href="https://tuosito.it">
+  <meta name="DC.Source" content="https://openlibrary.org/works/OL2243575M">
+  <meta name="DC.Language" content="it">
+  <meta name="DC.Relation" content="https://openlibrary.org/works/OL2243575M">
+  <meta name="DC.Relation" content="https://planetarynames.wr.usgs.gov/Feature/6349">
+  <meta name="DC.Relation" content="https://www.english-heritage.org.uk/visit/blue-plaques/michael-ventris/">
+  <meta name="DC.Relation" content="https://www.youtube.com/embed/pOOGJAQ4eg4?si=d-TgebkgNmKt3mmD">
+  <link rel="DC.Coverage" href="http://vocab.getty.edu/page/tgn/7004847">
+  <meta name="DC.Rights" content="Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)">
+<!--fine metadati DC -->
+
+    <title>Michael Ventris' work notes</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css">
+    <!-- CSS personalizzato -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap">
+    <link rel="stylesheet" href="stile/stile.css">
+
+</head><!-- fine head-->
+
+
+<body><!-- inizio body-->
+
+    <header><!-- inizio header -->
+
+        <nav class="navbar navbar-expand-lg bg-warning">
+    <div class="container-fluid">
+        <img src="img/logomv.jpeg" alt="Logo" width="80" height="60" class="d-inline-block align-text-top me-4">
+        <a class="navbar-brand text-dark" href="#">MV Work Notes</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Introduzione</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Archivio
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item text-dark" href="#">Numero</a></li>
+                                <li><hr class="dropdown-divider text-dark"></li>
+                                <li><a class="dropdown-item text-dark" href="data.html">Data</a></li>
+                                <li><hr class="dropdown-divider text-dark"></li>
+                                <li><a class="dropdown-item text-dark" href="#">Contenuto</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarProjectDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Il progetto
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarProjectDropdown">
+                                <li><a class="dropdown-item text-dark" href="#">Chi siamo</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item text-dark" href="#">Storia del progetto</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item text-dark" href="#">Staff</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-light border-dark border-2" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+       <!-- Carosello -->
+       <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="img/proviamo.jpeg" class="d-block w-100" alt="First Slide">
+                    <div class="carousel-caption d-block">
+                        <h5>Michael Ventris' work notes</h5>
+                        <p>Archivio digitale che raccoglie le "work notes" di Michael Ventris, le registrazioni sulle tappe che portarono alla decifrazione della Lineare B.</p>
+                        <a href="#" class="btn btn-warning">Vai all'introduzione</a>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/mv.jpeg" class="d-block w-100" alt="Second Slide">
+                    <div class="carousel-caption d-block">
+                        <h5>Biografia</h5>
+                        <p>La vita e l'attività di Michael Ventris.</p>
+                        <a href="#" class="btn btn-warning">Scopri di più</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/mventris.jpg" class="d-block w-100" alt="Third Slide">
+                    <div class="carousel-caption d-block">
+                        <h5>Progetto</h5>
+                        <p>Storia del progetto.</p>
+                        <a href="#" class="btn btn-warning">Scopri di più</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- inizio Main content with sidebar on the right -->
+    <main class="container mt-4">
+
+    <!-- div Intestazione Principale -->
+    <div class="welcome-page-container mb-5 py-5" style="background-color: #f8f9fa;">
+        <div class="container">
+            <div class="row">
+                <div class="col-10 offset-1 text-center">
+                    <h1 class="mb-4 display-4">Michael Ventris' <em>work notes</em></h1>
+                    <p class="lead">
+                        Cosa sono le <em>work notes</em>? Sono gli appunti redatti e datati dallo stesso Michael Ventris, in cui lo studioso annota i dubbi, le osservazioni, le ipotesi compiuti nello studio di questo misterioso e antichissimo sistema di scrittura, la <em>Lineare B</em>.
+                    </p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div> <!-- fine div Intestazione principale -->
+
+    <!-- inizio div Archivio -->
+    <div class="container-fluid archive-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-10 offset-1 text-center">
+                    <h2 class="archive-title mb-4">Esplora l'archivio</h2>
+                    <div class="row gy-4">
+                        <!-- Ricerca per Numero -->
+                        <div class="col-12 col-sm-6 col-lg-4 text-center">
+                            <h3 class="mb-3">Ricerca per numero <i class="bi bi-sort-numeric-down"></i></h3>
+                            <p>Esplora l'archivio filtrando gli oggetti per numero di nota. Accedi a una lista ordinabile e trova rapidamente ciò che cerchi.</p>
+                            <a href="#" class="btn btn-dark" title="Esplora per numero">Esplora per numero</a>
+                        </div>
+                        <!-- Ricerca per Data -->
+                        <div class="col-12 col-sm-6 col-lg-4 text-center">
+                            <h3 class="mb-3">Ricerca per data <i class="bi bi-calendar-date"></i></h3>
+                            <p>Esplora le note catalogate per data di stesura. Esplora il materiale attraverso una linea temporale.</p>
+                            <a href="data.html" class="btn btn-dark" title="Esplora per data">Esplora per data</a>
+                        </div>
+                        <!-- Ricerca per Contenuto -->
+                        <div class="col-12 col-sm-6 col-lg-4 text-center">
+                            <h3 class="mb-3">Ricerca per contenuto <i class="bi bi-journal-text"></i></h3>
+                            <p>Esplora le note catalogate per contenuto. Analizza l'evoluzione delle osservazioni di Ventris.</p>
+                            <a href="#" class="btn btn-dark" title="Esplora per contenuto">Esplora per contenuto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- fine div Archivio -->
+
+    <!--inizio div Approfondimenti -->
+    <div class="welcome-page-container mt-5" style="padding: 3rem 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-10 offset-1">
+                    <h2 class="my-4 text-center">Approfondisci</h2>
+                    <div class="row">
+                        <div class="col-12">
+                            <iframe 
+                                src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1ng1CcspdmrGeGJVnZPvnYtq35TxCs0UWGUPGWdXSqdI&font=Georgia-Helvetica&lang=it&initial_zoom=2&height=450"
+                                width="100%" height="450" 
+                                webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder="0">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- fine div Approfondimenti -->
+
+
+</main><!-- fine main-->
+
+
+<!-- inizio section dedicata ai Riconoscimenti e Onori -->
+<section class="container my-3">
+    <h5 class="mb-2 text-center"><strong>Riconoscimenti e Onori</strong></h5>
+    <div class="row row-cols-1 row-cols-md-2 g-2">
+        <!-- Card 1: Cratere lunare -->
+        <div class="col">
+            <div class="card h-100 p-2">
+                <img src="img/cratere.jpeg" class="card-img-top img-fluid" style="height: 200px; object-fit: cover;" alt="Cratere di Michael Ventris">
+                <div class="card-body p-2">
+                    <h6 class="card-title small mb-1">
+                        <a href="https://planetarynames.wr.usgs.gov/Feature/6349" class="custom-link" target="_blank">Cratere lunare dedicato a Michael Ventris</a>
+                    </h6>
+                    <p class="card-text small">Nel 1970 la IAU ha intitolato il cratere lunare 'Ventris' in onore di Michael Ventris.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2: Targa Blu -->
+        <div class="col">
+            <div class="card h-100 p-2">
+                <img src="img/targa.jpg" class="card-img-top img-fluid" style="height: 200px; object-fit: cover;" alt="Targa Blu">
+                <div class="card-body p-2">
+                    <h6 class="card-title small mb-1">
+                        <a href="https://www.english-heritage.org.uk/visit/blue-plaques/michael-ventris/" class="custom-link" target="_blank">Targa Blu</a>
+                    </h6>
+                    <p class="card-text small">L'English Heritage nel 1990 ha commemorato con una targa la casa di Michael Ventris.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- fine section dedicata a riconoscimenti ed onori-->
+
+
+
+    <!-- Footer -->
+
+ <footer class="footer bg-dark text-warning py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="text-warning">Informazioni</h5>
+                    <p class="text-warning">© 2024 Michael Ventris Project. Tutti i diritti riservati.</p>
+                    <p class="text-warning">Archivio digitale dedicato alle "work notes" di Michael Ventris.</p>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="text-warning">Contatti</h5>
+                    <ul class="text-warning">
+                        <li>Email: <a href="mailto:sara.avella@studio.unibo.it" class="text-warning">sara.avella@studio.unibo.it</a></li>
+                        <li>Telefono: +39 </li>
+                        <li>Indirizzo: Via Zamboni 32, Bologna, Italia</li>
+                    </ul>
+                    <h5 class="text-warning">Seguici su</h5>
+                    <a href="#" class="text-warning me-2"><i class="fab fa-facebook"></i> Facebook</a>
+                    <a href="#" class="text-warning me-2"><i class="fab fa-twitter"></i> Twitter</a>
+                    <a href="#" class="text-warning"><i class="fab fa-instagram"></i> Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- fine footer-->
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+
+
+</body><!-- fine body-->
+</html>
+
+

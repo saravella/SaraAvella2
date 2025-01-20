@@ -1,0 +1,269 @@
+/* stile.css */
+
+/* Base */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap');
+
+/* Colori Personalizzati */
+:root {
+    --orange-rust: #E07A5F;
+    --yellow-gold: #e6ac00;
+    --primary-blue: #007bff;
+    --primary-blue-dark: #0056b3;
+}
+
+
+
+body {
+    font-family: 'Georgia', serif;
+    
+}
+
+/* Titoli con font Playfair Display */
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+
+
+
+/* --------------------------------------INIZIO Stile del link personalizzato ----------------------------------------*/
+a.custom-link {
+    color: var(--yellow-gold); /* Colore del link normale */
+    text-decoration: none; /* Rimuove la sottolineatura */
+}
+
+a.custom-link:hover {
+    color: var(--orange-rust); /* Colore del link al passaggio del mouse */
+    text-decoration: underline; /* Aggiunge la sottolineatura al passaggio del mouse */
+}
+/* -----------------------------------------FINE Stile del link personalizzato ------------------------------------------*/
+
+
+
+
+
+
+/* -----------------------------------------INIZIO Stile del Carosello INDEX------------------------------------------- */
+
+.carousel-inner .carousel-item img {
+    width: 100%; /* Fa sì che l'immagine occupi tutta la larghezza del carosello */
+    height: 400px !important; /* Imposta un'altezza fissa per le immagini */
+    object-fit: cover; /* Copre l'area dell'elemento senza distorcere l'immagine */
+    object-position: 50% 17%; /* Posizione dell'immagine all'interno dell'elemento */
+}
+
+/* Ingrandire il testo del titolo del carosello */
+.carousel-caption h5 {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Ombra al testo */
+    font-size: 36px; /* Dimensione del testo */
+    font-weight: bold; /* Grassetto */
+}
+
+/* Ingrandire il testo del paragrafo del carosello */
+.carousel-caption p {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Ombra al testo */
+    font-size: 18px; /* Dimensione del testo */
+}
+
+/* Sfondo semitrasparente e ombra al testo del carosello */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Sfondo semitrasparente */
+    padding: 15px;
+    border-radius: 5px;
+}
+/* -----------------------------------------FINE Stile del Carosello INDEX------------------------------------------- */
+
+
+
+
+
+
+/* --------------------------------------------INIZIO Esplora l' Archivio INDEX -----------------------------------------------*/
+
+.archive-section {
+    background-color: #ffdb4d; /* Sfondo chiaro giallo pallido */
+}
+
+.archive-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/* --------------------------------------------------------FINE Archivio INDEX -----------------------------------------------*/
+
+
+
+
+
+
+/* -------------------------------------------------------- INIZIO MAIN DATA----------------------------------------------------------*/
+
+
+/* ---------------inizio background main--------------*/
+#dataMain {
+    background-color: rgba(220, 220, 220, 0.9); /* Grigio chiaro pastello */
+    padding: 20px; /* Spazio interno */
+    border-radius: 8px; /* Angoli arrotondati */
+}
+/* ---------------fine background main--------------*/
+
+
+
+
+/* ---------------inizio stile chart--------------*/
+#chartContainer {
+    border: 1px solid #ddd; /* Bordo grigio chiaro */
+    border-radius: 8px;
+    background-color: #ffffff; /* Sfondo bianco */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 2); /* Ombra */
+}
+/* ---------------fine stile chart--------------*/
+
+
+
+ 
+
+/* ---------------inizio stile pagination --------------*/
+.pagination {
+    display: flex; /* Per allineare i bottoni in fila */
+    justify-content: center; /* Per centrare orizzontalmente */
+    margin-top: 20px; /* Spazio sopra la paginazione */
+    margin-bottom: 20px; /* Spazio sotto la paginazione */
+    position: relative; /* Per mantenere la posizione in basso */
+}
+
+.pagination .page-link {
+    background-color: #f4c542; /* Giallo caldo */
+    color: #000; /* Testo nero */
+    border: 1px solid #ddd; /* Bordo grigio chiaro */
+    margin: 0 5px; /* Spazio tra i bottoni */
+    border-radius: 5px; /* Angoli arrotondati */
+}
+.pagination .page-link:hover {
+    background-color: #ffda77; /* Giallo più chiaro al passaggio del mouse */
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #ff9f43; /* Colore arancione caldo per la pagina corrente */
+    color: #fff; /* Testo bianco */
+    border: 1px solid #ff9f43; /* Bordo dello stesso colore dello sfondo */
+}
+/* ---------------fine stile pagination--------------*/
+
+
+
+
+/* ---------------inizio stile card giugno 1952--------------*/
+.note-card {
+    border: 1px solid #ddd; /* Bordo sottile */
+    border-radius: 8px; /* Angoli arrotondati */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+    transition: all 0.3s ease; /* Transizione per hover */
+}
+
+.note-card:hover {
+    transform: scale(1.03); /* Leggera animazione al passaggio del mouse */
+}
+
+.card-title {
+    color: #333; /* Grigio scuro per leggibilità */
+    font-weight: bold;
+}
+
+.card-text {
+    color: #555; /* Grigio medio */
+}
+
+/* ---------------inizio stile card giugno 1952--------------*/
+
+
+
+
+
+/*-----------inizio Stile dei bottoni dei mesi della colonna cerca--------- */
+.month-button {
+    background-color: #f9f9f9; /* Sfondo grigio chiaro */
+    color: #333; /* Testo grigio scuro */
+    border: 2px solid #f4c542; /* Bordo giallo caldo */
+    border-radius: 8px; /* Angoli arrotondati */
+    padding: 10px 15px; /* Spazio interno */
+    font-weight: bold; /* Testo in grassetto */
+    transition: all 0.3s ease; /* Transizione per hover */
+}
+
+/* Effetto hover */
+.month-button:hover {
+    background-color: #f4c542; /* Sfondo giallo caldo al passaggio del mouse */
+    color: #000; /* Testo nero */
+    transform: scale(1.05); /* Leggero ingrandimento al passaggio del mouse */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Ombra */
+}
+
+/* Effetto quando è attivo */
+.month-button:active {
+    background-color: #ff9f43; /* Arancione scuro per bottone attivo */
+    color: #fff; /* Testo bianco */
+    border-color: #ff9f43; /* Cambia anche il colore del bordo */
+}
+/*----------------fine Stile dei bottoni dei mesi della colonna cerca--------- */
+
+
+
+/* -------------------------------------------------------- FINE MAIN DATA----------------------------------------------------------*/
+
+
+
+
+
+/* -------------------------------------------------------- INIZIO ITEM----------------------------------------------------------*/
+
+
+/* ---------------INIZIO banner-item----------------*/
+
+/* Container generale del banner */
+.banner-item {
+    padding: 1.5rem; /* Spazio interno del banner */
+}
+
+/* Contenuto del banner */
+.banner-content {
+    position: relative;
+    background-color: #000; /* Sfondo scuro */
+    color: #fff; /* Testo bianco */
+    padding: 1.5rem; /* Spazio interno */
+    border-radius: 8px; /* Angoli arrotondati */
+}
+
+/* Immagine del banner */
+.banner-image {
+    display: block;
+    width: 100%; /* Larghezza completa */
+    height: 300px; /* Altezza fissa */
+    object-fit: cover; /* Adatta l'immagine senza distorcerla */
+    border-top-left-radius: 8px; /* Arrotonda gli angoli superiori */
+    border-top-right-radius: 8px; /* Arrotonda gli angoli superiori */
+}
+
+/* Overlay sopra l'immagine */
+.banner-overlay {
+    position: absolute;
+    top: 50%; /* Allinea verticalmente */
+    left: 50%; /* Allinea orizzontalmente */
+    transform: translate(-50%, -50%); /* Centra l'elemento */
+    background-color: rgba(0, 0, 0, 0.7); /* Sfondo semitrasparente */
+    padding: 1rem; /* Spazio interno */
+    border-radius: 8px; /* Angoli arrotondati */
+}
+
+/* Titolo del banner */
+.banner-title {
+    color: #fff; /* Colore del testo */
+    margin-bottom: 0; /* Rimuove lo spazio sotto il titolo */
+    text-align: center; /* Allinea il testo al centro */
+}
+/* ---------------FINE banner-item----------------*/

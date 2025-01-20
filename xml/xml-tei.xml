@@ -1,0 +1,87 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="ita">
+    <fileDesc>
+      <titleStmt>
+        <title>Trascrizione</title>
+        <author>Avella, Sara</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Università di Bologna</publisher>
+        <distributor>
+          <name>Michael Ventris' Work-notes</name>
+          <address>
+            <url>https://github.com/tuo-repo</url>
+          </address>
+        </distributor>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Basato su Work notes on Minoan language research and other unedited papers / Michael Ventris; edited by Anna Sacconi.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+ <text>
+<body>
+
+ <div type="transcription">
+  <head>Trascrizione</head>
+  <div type="note" xml:lang="en">
+          <head>NOTE 20. Are the <rs type="place">Knossos</rs> and <rs type="place">Pylos </rs> tablets written in <term>Greek?</term></head>
+          <p>With the publication of the <rs type="place" ref="https://pleiades.stoa.org/places/238779098">Knossos</rs> 
+          and <rs type="place" ref="https://pleiades.stoa.org/places/156116232">Pylos</rs> tablets written in 
+          <bibl> 
+          <title> Scripta Minoa volume II</title> 
+          <author> Emmett L. Bennett </author> 
+          <author> Arthur Evans </author> <idno type="oclc">44837780</idno>,
+          </bibl>  
+          and with the promise of
+          <choice> <abbr>Dr.</abbr> <expan>Doctor</expan></choice> 
+          <name>Bennett</name>'s revised Index, we are in a position to begin a detailed analysis of the whole 
+          <term type="script" subtype="archaic">Linear B</term>
+        material under its various aspects. One of the first studies of this 
+        <name ref="http://viaf.org/viaf/18145244302374481266">Ktistopoulos</name>' 
+          <bibl>
+            <title>"Recherches sur les mots minoens"</title>  
+           <author>Constantine Dem Ktistopoulos</author>   
+           <idno type="oclc">9952955 </idno>,
+            </bibl> 
+            which I have just received. Until this work has been done, it will not to start as well not to start with any preconceived notions about phonetic values or about the language relationships.The Note which follows 18 in the nature of a frivolous digression, and is not intended to prejudice that analyals.
+        </p>
+         <p>There will very likely turn out to be <num>2</num> <num>3</num> different 'points of departure' for a successful decipherment, possibly found by several of us (like the identifications of "king/Baal/house" and of the cardinal numbers in the 
+         <term type="script" subtype="archaic">Ugarit alphabet</term>). 
+         In the chains of deduction whioh spread out from these points we may, I believe, initially strike words and forms which force us to ask ourselves whether we are not, after all, dealing with a 
+         <hi rend="underline"><term type="language">Greek dialect</term></hi>. 
+         These may well turn out to be a hallucination; but let us discuss for a moment whether such a possibility is intrinsically abourd, or whether it is still worth bearing in mind in the analysis.
+          <name ref="http://viaf.org/viaf/14778694">Evans</name> and many others have felt that the Knossians of LMII cannot have spoken 
+          <term type="language">Greek</term>, because the whole appearance of their culture seems to preserve the continuity of the old island traditions; but they believed they could detect, in the culture of the Mainland, signs of differences which showed that the 
+          <rs type="people" subtype="ancient"> Mycenaeans </rs> already spoke 
+          <term type="language">Greek</term>. Two facts complicate this picture:</p>
+         <p><list rend="numbered">
+        <item>1 The language of all Mainland sites, including <rs type="place" ref="https://pleiades.stoa.org/places/156116232">Pylos </rs> of about <date when="-1200">1200 BCE</date>, is that of the <rs type="place" ref="https://pleiades.stoa.org/places/238779098">Knossos</rs> <term type="script" subtype="archaic">Linear B</term> texts.</item>
+        <item>2 <name ref="http://viaf.org/viaf/79068929"> Bennett</name> and others have thought that the language of <term type="script" subtype="archaic">Linear B </term> is distinct from that <term type="script" subtype="archaic"> Linear A </term>, and that the new script was perhaps adapted specifically to cope with this new language.
+       </item></list>
+   </p>
+<p>If we were to toy with the idea of an early Greek dialect, we should have to assume that a Greek ruling class, appearences to contrary, established itself at Knossos as early as <date when="-1450">1450</date>, and that the new <term type="script" subtype="archaic">Linear B </term> was adapted from the indigenous syllabary in order to write Greek. We might, however, assume that most of the placenames and personal names on the tablets are still indigenous, and that perfhaps some native words and phrases occur side by side with Greek ones.</p>
+<p> One of the most promising "points of departure" concerns those sign-groups at Pylos and Knossos which I have classified as <hi rend="underline">Category 3</hi>. They are the sign-groups which are not personal names, and yet figure as the subjects of very varied lists of commodities, often recurring in a fixed order and with a fixed proportion between their various contributions. Their commonest members are formed, in each case, by a group of about a dozen of them, which are found in a disproportionately large number of entries. They form an "adjectival" variant by changing their last syllabe to<hi rend="underline">Vowel 1</hi> and adding -
+<g type="sillabogram" ref="#U1000D">jo</g><!-- g sta glypho per segni speciali si mette ref come attributo con valore unicode  -->
+, or - <g type="sillabogram" ref="#U10037">ja</g> and their typical representatives are the Pylos "9" of Vn01 etc, and the Knossos sign-groups in- 
+<g type="sillabogram" ref="#U10035">to</g>/ 
+-<g type="sillabogram" ref="#U10034">ti</g> 
+<g type="sillabogram" ref="#U1000D">jo</g> and 
+<g type="sillabogram" ref="#U10004">u</g> 
+-<g type="sillabogram" ref="#U1002F">si</g> 
+<g type="sillabogram" ref="#U1000D">jo</g>which
+ <choice> <abbr>Dr.</abbr> <expan>Doctor</expan></choice>  
+ <name ref="http://viaf.org/viaf/91644927">Kober</name>Kober
+  discussed in  
+<date when="1946">1946</date>.
+
+</p>
+
+        </div>
+
+
+</div>   
+
+</body>
+ </text>
+ </TEI>
