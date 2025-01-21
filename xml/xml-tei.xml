@@ -2,15 +2,15 @@
   <teiHeader xml:lang="ita">
     <fileDesc>
       <titleStmt>
-        <title>Trascrizione</title>
-        <author>Avella, Sara</author>
+        <title>Nota 1 Giugno 1952</title>
+        <author>Ventris, Michael</author>
       </titleStmt>
       <publicationStmt>
         <publisher>Università di Bologna</publisher>
         <distributor>
           <name>Michael Ventris' Work-notes</name>
           <address>
-            <url>https://github.com/tuo-repo</url>
+            <url>https://saravella.github.io/SaraAvella2/index.html</url>
           </address>
         </distributor>
       </publicationStmt>
