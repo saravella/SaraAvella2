@@ -54,7 +54,7 @@ a.custom-link:hover {
     object-position: 50% 17%; /* Posizione dell'immagine all'interno dell'elemento */
 }
 
-/* Ingrandire il testo del titolo del carosello */
+/ del titolo del carosello */
 .carousel-caption h5 {
     color: #ffffff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Ombra al testo */
@@ -62,7 +62,7 @@ a.custom-link:hover {
     font-weight: bold; /* Grassetto */
 }
 
-/* Ingrandire il testo del paragrafo del carosello */
+/* paragrafo del carosello */
 .carousel-caption p {
     color: #ffffff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Ombra al testo */
